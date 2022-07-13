@@ -7,3 +7,34 @@
     border: none;
     outline: none;
 }
+.container{
+    width: 1110px;
+    margin: 0 auto;
+    background: #E5E5E5;
+}
+
+.wrap{
+    width: 100%;
+    height: 50px;
+}
+.box{
+    width: 96px;
+    height: 17px;    
+    font-size: 14px;
+    text-align: center;
+    font-family: roboto;
+    color: black;
+    float: left;
+    margin: 17px 30 16px 0;
+}
+
+.box1{
+    float: left;
+    margin-left: 299px;
+}
+.number{
+    font-family: roboto;
+    color: black;
+    margin: 50px 0 0 773px;
+    width: 127;
+}

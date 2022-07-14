@@ -7,3 +7,18 @@
     border: none;
     outline: none;
 }
+.menu{
+font-size: 0px;
+}
+.menu-item{
+display: inline-block;
+}
+.menu-item-link{
+background: black;
+color: white;
+display: block;
+text-transform: uppercase;
+padding: 30px 30px;
+font-size: 20px;
+border: 5px solid blue;
+}

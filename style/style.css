@@ -36,12 +36,12 @@ border: 5px solid blue;
     display: block;
 }
 .submenu{
-   display: none;
     position: absolute;
     left: 180px;
     top: 90px;
+    display: none;
 }
-.menu-item:hover .submenu{
+.menu-inner:hover .item-1:hover .submenu{
     display: block;
 }    
 

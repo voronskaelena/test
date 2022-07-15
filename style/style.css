@@ -22,3 +22,26 @@ padding: 30px 30px;
 font-size: 20px;
 border: 5px solid blue;
 }
+.menu-item-link:hover{
+    background: rgb(81, 81, 230);
+}
+.menu-inner{
+    position: absolute;
+    display: none;
+}
+.menu-inner .menu-item{
+    display: block;
+}
+.menu-item:hover .menu-inner{
+    display: block;
+}
+.submenu{
+   display: none;
+    position: absolute;
+    left: 180px;
+    top: 90px;
+}
+.menu-item:hover .submenu{
+    display: block;
+}    
+

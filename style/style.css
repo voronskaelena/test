@@ -6,4 +6,29 @@
     text-decoration: none;
     border: none;
     outline: none;
-}
+    }
+    .header{
+        background: #EEEFF1; 
+        padding: 79px 0 0 0;  
+        
+    }
+    .menu-block{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: inline-block;
+    
+    }
+    .menu-item{
+    display: inline-block; 
+    }
+    .menu-item1{
+        display: inline-block;
+        margin-left: 42px;
+    }
+    
+    
+    .header-text{
+        
+        width: 540px;
+        margin: 0 auto;
+    }

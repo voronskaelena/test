@@ -7,3 +7,25 @@
     border: none;
     outline: none;
 }
+.yellow{
+    background: yellow;
+}
+.grey{
+    background: grey;
+}
+.green{
+    background: green;
+}
+.blue{
+    background: blue;
+}
+.orange{
+    background: orange;
+}
+.lmv{
+    display: inline-block;
+}
+.logo{
+    padding: 50px 50px;
+    border-radius: 50%;
+}

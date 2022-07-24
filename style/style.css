@@ -7,3 +7,47 @@
     border: none;
     outline: none;
 }
+.white{
+    background: white;
+}
+.orange{
+    background: orange;
+}
+   
+.header{
+    background: #FFFFFF;    
+    padding: 34px 51px ;     
+    border: 1px solid #E5E5E5;
+}
+.navigation{
+    width: 1338px;
+    margin: 0 auto;
+    display: flex;
+}
+.logo, .menu-item, .btnnav{
+    display: inline-block; 
+    }
+
+.menu-item{
+    margin-left: 57px;
+}
+.menu-item-link{
+    color: black;
+    font-size: 15px;
+}
+.btnnav1, .btnnav2{
+    width: 120px;
+    font-size: 16px;
+}
+.btnnav1{
+    color: black;
+    border: 1px solid #E5E5E5;
+    padding: 14.5px 36px;
+}
+.btnnav2{
+    color: #FFFFFF;
+    padding: 14.5px 22px;
+}
+.btnnav{
+    margin-left: 358px;
+}

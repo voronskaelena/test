@@ -65,3 +65,13 @@
 .block1{
     margin-top: 151px;
 }
+.heading, .header-text{
+    margin-bottom: 51px;
+}
+.text{
+    margin-top: 25px;
+}
+.btn1, .btn2{
+    width: 160px;
+    font-size: 16px;
+}

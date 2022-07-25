@@ -51,3 +51,17 @@
 .btnnav{
     margin-left: 358px;
 }
+.container{
+    width: 1290px;
+    margin: 0 auto;
+    display: flex;
+}
+.one{
+    padding: 0 75px;
+}
+.block{
+    margin-top: 129px;
+}
+.block1{
+    margin-top: 151px;
+}

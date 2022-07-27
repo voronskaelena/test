@@ -16,6 +16,9 @@
 .orange1{
     background: #FF9C7D;
 }
+.beige{
+    background: #FFF8E4;
+}
    
 .header{
     background: #FFFFFF;    
@@ -124,4 +127,33 @@
 }
 .block4{
     margin-bottom: 190px;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head-cards{
+    color: black;
+    font-size: 25px;
+    margin-top: 26px;
+    margin: auto;
+}
+.text-cards{
+    width: 303px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.box2{
+    display: flex;
+    flex-flow: row wrap;
+  justify-content: space-around;
+   
+    padding: 0 0 147px;
+}
+.heading-cards{
+    width: 890px;
+    flex-basis: 100%;
+    font-size: 50px;
+    margin: 120px 200px 79px;
 }

@@ -19,6 +19,12 @@
 .beige{
     background: #FFF8E4;
 }
+.blue{
+    background: #C9E8F2;
+}
+.broun{
+    background: #DABC98;
+}
    
 .header{
     background: #FFFFFF;    
@@ -151,14 +157,68 @@
    
     padding: 0 0 147px;
 }
-.heading-cards{
-    width:px;
+.heading-cards, .heading-cards1{
+    width:1287px;
     flex-basis: 100%;
     font-size: 50px;
+    
+}
+.heading-cards{
     margin: 120px 200px 79px;
+}
+.heading-cards1{
+    margin: 154px 0 75px;
 }
 .box3{
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    
     justify-content: space-around;
+}
+.head-cards1{
+    color: black;
+    font-size: 30px;
+    margin: 49px 0 34px;
+}
+
+.text-cards1{
+    font-size: 20px;
+    width: 409px;
+    margin-bottom: 25px;
+}
+.cards1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.box4{
+    display: flex;
+        
+    justify-content: space-between;
+}
+.text-cards2{
+    font-size: 30px;
+    width: 920.7px;
+    margin-bottom: 23px;
+}
+.text-name{
+    font-size: 15px;
+    margin-bottom: 14px;
+}
+.block5{
+    margin: 53px 0 105px;
+}
+.text-cards3{
+    font-size: 35px;
+    width: 461px;
+    margin-left: 67px;
+}
+.block6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 90px 0 88px;
+}
+.sign{
+    margin: 0 71px 0 70px;
 }

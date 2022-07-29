@@ -25,6 +25,12 @@
 .broun{
     background: #DABC98;
 }
+.black{
+    background: black;
+}
+.grey{
+    background: #EEEEEE;
+}
    
 .header{
     background: #FFFFFF;    
@@ -227,12 +233,37 @@
     flex-direction: column;
     align-items: center;
 }
-.heading{
+.heading1{
     font-size: 65px;
+    width: 790px;
+    
 }
 .block7{
     display: flex;
     align-items: center;
     flex-direction: column;
-    margin: 90px 0 88px;
+    margin: 165px 250px 25px;
+}
+.header-text1{
+    font-size: 25px;
+    width: 539px;
+}
+.block8{
+    margin-top: 25px;
+}
+.btn3{
+    color: white;
+    margin-top: 32px;
+    font-size: 16px;
+    padding: 22px 20px;
+    margin-bottom: 162px;
+}
+.block9{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin:  119px 0 161px 0;
+}
+.btn4{
+    color: white;
 }

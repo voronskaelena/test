@@ -1,3 +1,18 @@
+@font-face{
+    font-family: 'Graphik';
+    src: url('../fonts/GraphikLCG-Regular.ttf');
+    src: url('../fonts/GraphikLCG-Semibold.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face{
+    font-family: 'Graphikbold';
+    src: url('../fonts/GraphikLCG-Semibold.ttf');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 *, body, html{
     margin: 0;
     padding: 0;
@@ -41,21 +56,29 @@
     width: 1338px;
     margin: 0 auto;
     display: flex;
+    justify-content: space-between;
 }
 .logo, .menu-item, .btnnav{
-    display: inline-block; 
+    
     }
-
-.menu-item{
-    margin-left: 57px;
+.flexcontainer{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+.menu-item{
+margin-left: 40px;
+}
+
 .menu-item-link{
     color: black;
     font-size: 15px;
+    font-family: 'Graphik';
 }
 .btnnav1, .btnnav2{
     width: 120px;
     font-size: 16px;
+    font-family: 'Graphikbold';
 }
 .btnnav1{
     color: black;
@@ -96,6 +119,7 @@
 .btn1, .btn2{
     width: 160px;
     font-size: 16px;
+    font-family: 'Graphikbold';
 }
 .btn2{
     color: black;
@@ -108,7 +132,7 @@
     padding: 22px 42px;
 }
 .companies{
-    padding: 108px 340px;
+    padding: 108px 280px;
 }
 .list{
     display: flex;
@@ -119,6 +143,7 @@
     font-size: 50px;
     margin-bottom: 30px;
     max-width: 493px;
+    font-family: 'Graphikbold';
 }
 
 .head-text{
@@ -126,6 +151,7 @@
     font-size: 20px;
     color: black;
     margin-bottom: 30px;
+    font-family: 'Graphik';
 }
 .box1{
     display: flex;
@@ -150,24 +176,31 @@
     font-size: 25px;
     margin-top: 26px;
     margin: auto;
+    font-family: 'Graphikbold';
 }
 .text-cards{
     width: 303px;
     font-size: 18px;
     margin-top: 20px;
+    font-family: 'Graphik';
 }
 .box2{
     display: flex;
-    flex-flow: row wrap;
+    flex-wrap: wrap;
   justify-content: space-around;
    
     padding: 0 0 147px;
 }
+.main-cards{
+    display: flex;
+    margin-bottom: 75px;
+   justify-content: space-between;
+}   
 .heading-cards, .heading-cards1{
     width:1287px;
     flex-basis: 100%;
     font-size: 50px;
-    
+    font-family: 'Graphikbold';
 }
 .heading-cards{
     margin: 120px 200px 79px;
@@ -185,12 +218,14 @@
     color: black;
     font-size: 30px;
     margin: 49px 0 34px;
+    font-family: 'Graphikbold';
 }
 
 .text-cards1{
     font-size: 20px;
     width: 409px;
     margin-bottom: 25px;
+    font-family: 'Graphik';
 }
 .cards1{
     display: flex;
@@ -206,10 +241,12 @@
     font-size: 30px;
     width: 920.7px;
     margin-bottom: 23px;
+    font-family: 'Graphik';
 }
 .text-name{
     font-size: 15px;
     margin-bottom: 14px;
+    font-family: 'Graphik';
 }
 .block5{
     margin: 53px 0 105px;
@@ -218,6 +255,7 @@
     font-size: 35px;
     width: 461px;
     margin-left: 67px;
+    font-family: 'Graphikbold';
 }
 .block6{
     display: flex;
@@ -236,7 +274,7 @@
 .heading1{
     font-size: 65px;
     width: 790px;
-    
+    font-family: 'Graphikbold';
 }
 .block7{
     display: flex;
@@ -247,6 +285,7 @@
 .header-text1{
     font-size: 25px;
     width: 539px;
+    font-family: 'Graphik';
 }
 .block8{
     margin-top: 25px;
@@ -257,16 +296,89 @@
     font-size: 16px;
     padding: 22px 20px;
     margin-bottom: 162px;
+    font-family: 'Graphikbold';
 }
 .block9{
     display: flex;
     align-items: center;
     flex-direction: column;
     margin:  119px 0 161px 0;
+    justify-content: center;
 }
 .btn4{
     color: white;
     font-size: 17px;
     padding: 21.5px 40px;
     margin-top: 54px;
+    font-family: 'Graphikbold';
+}
+.box6{
+    display: flex;
+
+    flex-direction: row;
+}
+.small-box{
+    display: flex;
+   flex-flow: nowrap;
+   justify-content: space-between;
+    margin-left: 140px;
+}
+
+.block-small, .block10{
+    margin: 92px 0 95px;
+    display: flex;
+    flex-direction: column;
+}
+.block-small{
+    margin-left: 100px;
+}
+.block10{
+    justify-content: space-around;
+}
+.box7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid black;
+    align-items: center;
+}
+.head-footer{
+    font-size: 40px;
+    margin-bottom: 28px;
+    font-family: 'Graphikbold';
+}
+.ft{
+    margin-top: 38px;
+}
+.footer-text{
+    width: 301px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-family: 'Graphik';
+    margin-left: 14px;
+}
+.foot-text, .heading-footer{
+    font-size: 20px;
+    color: black;
+    font-family: 'Graphikbold';
+}
+
+.head-foot{
+    font-size: 15px;
+    color: black;
+    font-family: 'Graphik';
+}
+.heading{
+    font-family: 'Graphikbold';
+    font-size: 65px; 
+}
+.heading-text{
+    font-family: 'Graphikbold';
+    font-size: 60px; 
+    width: 720px;
+}
+.block-small1{
+    flex-direction: row;
+    display: flex;
+    
 }

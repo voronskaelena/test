@@ -136,6 +136,7 @@ margin-left: 40px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 120px;
+    overflow: hidden;
 }
 .head{
     font-size: 50px;
@@ -366,6 +367,7 @@ margin-left: 40px;
     color: black;
     font-family: 'Graphik';
     line-height: 15px;
+    margin-top: 15px;
 }
 .heading{
     font-family: 'Graphikbold';
@@ -383,4 +385,120 @@ margin-left: 40px;
 }
 .header-text, .text{
     font-family: 'Graphik';
+}
+.block2, .block3, .block4{
+width: calc(50% - 10px);
+min-width: 120px;
+height: calc(50% - 10px);
+min-height: 120px;
+}
+@media screen  and (max-width: 720px) {
+    .logo{
+      display: none;
+    }
+    .menu-item{
+        margin-left: 5px;
+    }
+    .btnnav{
+        margin-left: 0;
+    }
+    .navigation{
+        width: 100%;
+    }
+    .heading, .head, .heading-cards, .heading-text, .heading-cards1, .text-cards2, .text-cards3, .heading1, .head-footer{
+        font-size: 25px;
+    }
+    .header-text1{
+        font-size: 16px;
+    }
+    .heading, .header-text{
+        max-width: 559px;
+    }
+    .block1{
+    display: none;
+    }
+    .box{
+        flex-wrap: wrap;
+    }
+    .heading-text{
+        max-width: 500px;
+    }
+    .companies{
+        padding: 108px 100px;
+    }
+    .list{
+        justify-content: flex-start;
+    }
+    .list :last-child{
+    max-width: 140px;
+    }
+    .menu-item-link, .btnnav1, .btnnav2{
+        font-size: 12px;
+    }
+    .block2, .block3, .block4{
+        width: calc(35% - 10px);
+        height: calc(35% - 10px);
+    }
+    .box1{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .main-cards{
+        flex-direction: column;
+    }
+    .box2{
+        justify-content: flex-start;
+    }
+    .box3{
+        flex-direction: column;
+        
+        align-items: flex-start;
+    }
+    .heading-cards{
+        width: 570px;
+        margin: 120px 0 79px;
+    }
+    .text-cards2{
+        max-width: 600px;
+    }
+    .box4{
+        flex-direction: column;
+    }
+    .foto{
+        width: 200px;
+        height: 200px;
+    }
+    .block6{
+        justify-content: flex-start;
+    }
+    .block7{
+        
+        margin: 165px 20px 25px;
+    }
+    .block8{
+        display: none;
+    }
+    .heading1{
+        max-width: 600px;
+    }
+   
+    .box5{
+        align-items: flex-start;
+    }
+    .block10{
+        display: none;
+    }
+    .small-box{
+        margin-left: 0px;
+    }
+    .block-small{
+        margin-left: 19px;
+    }
+    .footer-text{
+        display: none;
+    }
+    .box7{
+        justify-content: flex-start;
+    }
 }

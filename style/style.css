@@ -7,10 +7,44 @@
     border: none;
     outline: none;
 }
+
 .box{
-    width: 300px;
-    height: 300px;
-    margin-left: 30px;
-    margin-top: 57px;
-    background: url(../images/istockphoto-524019138-170667a.png) left right repeat two, url(../images/car.png);
+   margin-top: 200px;
+   
+}
+.car{
+   
+    position: fixed;
+   
+    animation: movecar 5s infinite;
+    left: 0;
+    transition: 2s;
+}
+.car:hover{
+    transform: rotate(180d);
+}
+.wheel, .wheel1{
+   
+    position: fixed;
+   
+    
+}
+.wheel{
+   
+    margin-top: 36px;
+}
+.wheel1{
+    margin-left: 95px;
+    margin-top: 36px;
+}
+@keyframes movecar {
+ 0%{
+    .car:hover{
+        transform: rotate(180d);
+    }
+ }
+ 100%{
+    transform: translateX(100%);
+    left: 100%;
+ }
 }

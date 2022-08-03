@@ -27,7 +27,6 @@
    
     position: fixed;
    
-    
 }
 .wheel{
    
@@ -38,13 +37,12 @@
     margin-top: 36px;
 }
 @keyframes movecar {
- 0%{
-    .car:hover{
-        transform: rotate(180d);
+    0%{
+        
     }
- }
+    
  100%{
     transform: translateX(100%);
     left: 100%;
- }
+    }
 }

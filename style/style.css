@@ -12,37 +12,37 @@
    margin-top: 200px;
    
 }
-.car{
+.boxcar{
    
     position: fixed;
+    position: relative;
    
-    animation: movecar 5s infinite;
+    animation: movecar 30s infinite;
     left: 0;
     transition: 2s;
 }
-.car:hover{
-    transform: rotate(180d);
-}
+
 .wheel, .wheel1{
    
-    position: fixed;
+   position: absolute;
    
 }
 .wheel{
    
-    margin-top: 36px;
+    margin-top: -20px;
 }
 .wheel1{
     margin-left: 95px;
-    margin-top: 36px;
+    margin-top: -20px;
 }
 @keyframes movecar {
     0%{
-        
+        transform: rotateY(180deg);
+        left: 100%;
     }
-    
+  
  100%{
-    transform: translateX(100%);
+    transform: rotateY(180deg);
     left: 100%;
     }
 }

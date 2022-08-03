@@ -16,29 +16,39 @@
    
     position: fixed;
     position: relative;
-   
     animation: movecar 30s infinite;
+   
     left: 0;
     transition: 2s;
 }
 
-.wheel, .wheel1{
+.boxwheel, .boxwheel1{
    
    position: absolute;
-   
+   animation: spin 5s linear 0s infinite;
 }
-.wheel{
+.boxwheel{
    
-    margin-top: -20px;
+    margin-top: -40px;
 }
-.wheel1{
-    margin-left: 95px;
-    margin-top: -20px;
+.boxwheel1{
+    margin-left: 190px;
+    margin-top: -40px;
+}
+.beacon{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: red;
+    margin-left: 65px;
+    margin-top: -140px;
+    animation: beacon 1s infinite;
+    border-radius: 30%;
 }
 @keyframes movecar {
     0%{
         transform: rotateY(180deg);
-        left: 100%;
+        left: -100%;
     }
   
  100%{
@@ -46,3 +56,11 @@
     left: 100%;
     }
 }
+@keyframes spin {
+    from {transform:rotate(360deg);}
+    to {transform:rotate(0deg);}
+}
+@keyframes beacon {
+    from { opacity: 1.0; }
+    to { opacity: 0.0; background: yellow; }
+  }

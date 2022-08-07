@@ -6,4 +6,10 @@
   text-decoration: none;
   border: none;
   outline: none;
+}
+
+.container {
+  background: #f5f5f5;
+  max-width: 1170px;
+  padding: 0 135px;
 }/*# sourceMappingURL=index.css.map */

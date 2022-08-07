@@ -8,8 +8,27 @@
   outline: none;
 }
 
-.container {
+.header {
   background: #f5f5f5;
+  padding-top: 82px;
+}
+
+.container {
   max-width: 1170px;
-  padding: 0 135px;
+}
+.container .navigation {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .navigation .menu div {
+  width: 34px;
+  height: 20px;
+  background-color: black;
+  height: 2px;
+  margin: 2px 0;
+}
+.container .navigation .logo {
+  width: 148px;
+  height: 54px;
 }/*# sourceMappingURL=index.css.map */

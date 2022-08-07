@@ -7,7 +7,27 @@
     border: none;
     outline: none;
 }
-.container{
+.header{
     background: $base-color;
+    padding-top: 82px;
+}
+.container{
     max-width: 1170px;
+    .navigation{
+        width: 1140px;
+        display: flex;
+        justify-content: space-between;
+        .menu div{
+            width: 34px;
+            height: 20px;
+            background-color: $black;
+            height: 2px;
+           margin: 2px 0;
+        }
+        .logo{
+            width: 148px;
+            height: 54px;
+        }
+    
+    }
 }

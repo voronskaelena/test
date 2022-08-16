@@ -31,4 +31,11 @@
 .container .navigation .logo {
   width: 148px;
   height: 54px;
+}
+.container .text {
+  margin-bottom: 202px;
+  margin-left: 234px;
+}
+.container .text .badge {
+  color: rgb(252, 111, 78);
 }/*# sourceMappingURL=index.css.map */

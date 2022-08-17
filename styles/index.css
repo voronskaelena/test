@@ -38,4 +38,12 @@
 }
 .container .text .badge {
   color: rgb(252, 111, 78);
+}
+.container .form {
+  width: 375px;
+  height: 388px;
+  background-color: #ffffff;
+}
+.container .form .sm-header-text .badge {
+  color: rgb(252, 111, 78);
 }/*# sourceMappingURL=index.css.map */

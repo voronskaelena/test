@@ -36,5 +36,14 @@
                 color: $lightpink
             }
         }
-    
+    .form{
+        width: 375px;
+        height: 388px;
+        background-color: $white;
+        .sm-header-text{
+            .badge{
+                color: $lightpink
+            }
+        }
+    }
 }

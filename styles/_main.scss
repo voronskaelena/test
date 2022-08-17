@@ -46,4 +46,28 @@
             }
         }
     }
+    .card{
+        background-color: $blue;
+       
+        .card-img-top {
+            width: 45px;
+            height: 45px;
+           margin-top: 55px;
+           margin-left: 108px;
+        }
+        .card-title, .card-text{
+            text-align: center;
+        }
+        .card-body{
+            padding-top: 40px;
+        }
+        .btn{
+            color: $black;
+            background-color: $white;
+            margin-top: 40px;
+        }
+    }
+}
+.working{
+    background-color: $white;
 }

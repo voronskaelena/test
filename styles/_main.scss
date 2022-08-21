@@ -48,7 +48,9 @@
     }
     .card{
         background-color: $blue;
-       
+        display: inline-block;
+        
+        
         .card-img-top {
             width: 45px;
             height: 45px;
@@ -63,11 +65,47 @@
         }
         .btn{
             color: $black;
-            background-color: $white;
             margin-top: 40px;
+            --bs-btn-padding-x: 4rem;
+            --bs-btn-padding-y: 0.9rem;
+            --bs-btn-border-radius: 7rem;
         }
     }
+    .card:nth-child(3){
+        background-color: $purple;
+        margin-left: 28px;
+    }
+    .card:nth-child(4){
+        background-color: $indigo;
+        margin-left: 28px;
+    }
+    .card:last-child{
+        background-color: $pink;
+        margin-left: 28px;
+    }
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+        .box-item{
+            width: 360px;
+            height: 360px;
+            background-color: $orange;
+            margin: auto;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+    }
+    .box-small{
+        display: block;
+        border-radius: 1px;
+        filter: drop-shadow(0 0 0.5px rgba(20,20,21,0.14));
+        margin-top: 10px;
+        
+    }
 }
-.working{
+.working, .services{
     background-color: $white;
+}
+.works{
+    background-color: $lightgreen;
 }

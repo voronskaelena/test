@@ -4,9 +4,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
     <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
-    
+  <h1 class="mt-12 mb-8 px-6 text-center text-lg md:text-2xl font-semibold">
+    Lazy Loading Images
+  </h1>
+  
+  <div id="mainCarousel" class="carousel mb-4 w-10/12 max-w-xl mx-auto">
+    <div class="carousel__slide">
+      <img data-lazy-src="https://lipsum.app/id/33/1200x675" />
+    </div>
+    <div class="carousel__slide">
+      <img data-lazy-src="https://lipsum.app/id/44/1200x675" />
+    </div>
+    <div class="carousel__slide">
+      <img data-lazy-src="https://lipsum.app/id/55/1200x675" />
+    </div>
+    <div class="carousel__slide">
+      <img data-lazy-src="https://lipsum.app/id/66/1200x675" />
+    </div>
+    <div class="carousel__slide">
+      <img data-lazy-src="https://lipsum.app/id/77/1200x675" />
+    </div>
+    <div class="carousel__slide">
+      <img data-lazy-src="https://lipsum.app/id/88/1200x675" />
+    </div>
+    <div class="carousel__slide">
+      <img data-lazy-src="https://lipsum.app/id/99/1200x675" />
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+  <script src="./js/script.js">
+  </script>
 </body>
 </html>

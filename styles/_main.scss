@@ -7,13 +7,22 @@
     border: none;
     outline: none;
 }
-.wrap{
-    
-    display: grid;
-    grid-template-columns: repeat(4, 1fr 3fr);
-    grid-template-rows: repeat(5, 1fr 2fr 3fr);
-    grid-gap: 10px;
-    .menu{
-        background: blue;
-    }
-}
+
+
+#mainCarousel {
+    color: #170724;
+  
+    --carousel-button-bg: #fff;
+    --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%),
+      0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+  
+    --carousel-button-svg-width: 20px;
+    --carousel-button-svg-height: 20px;
+  
+    --carousel-button-svg-stroke-width: 2.5;
+  }
+  
+  #mainCarousel .carousel__slide {
+    width: 70%;
+    padding: 0;
+  }

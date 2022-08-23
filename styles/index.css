@@ -21,4 +21,11 @@
 #mainCarousel .carousel__slide {
   width: 70%;
   padding: 0;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  background-color: rgb(209, 208, 208);
+  border-radius: 10px;
 }/*# sourceMappingURL=index.css.map */

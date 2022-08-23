@@ -94,18 +94,48 @@
             margin-left: 20px;
             margin-top: 20px;
         }
+        .box-item1{
+          width: 360px;
+          height: 444px;
+          background-color: $orange;
+          .box-item-small{
+            width: 262px;
+          height: 94px;
+          background-color: $white;
+          margin: 372px 52px 0 0;
+          }
+          .box-small1{
+            display: block;
+            margin-left: 98px;
+            margin-top: 178px;
+        }
+          .box-small1:nth-child(2){
+            margin-top: 10px;
+            margin-left: 138px;
+        }
+        }
+        .box-item1:nth-child(2){
+          background-color: $beige;
+          margin-left: 30px;
+        }
+        .box-item1:nth-child(3){
+          margin-left: 30px;
+        }
     }
-    .box-small{
+    .box1{
+      display: flex;
+      flex-direction: row;
+      .box-small{
         display: block;
         border-radius: 1px;
         filter: drop-shadow(0 0 0.5px rgba(20,20,21,0.14));
         margin-top: 10px;
-        
     }
+  }
 }
 .working, .services{
     background-color: $white;
 }
-.works{
+.works, .team{
     background-color: $lightgreen;
 }

@@ -103,7 +103,7 @@
   width: 262px;
   height: 94px;
   background-color: #ffffff;
-  margin: 372px 52px 0 0;
+  margin: 372px 0 0 52px;
 }
 .container .box .box-item1 .box-small1 {
   display: block;
@@ -112,7 +112,7 @@
 }
 .container .box .box-item1 .box-small1:nth-child(2) {
   margin-top: 10px;
-  margin-left: 108px;
+  margin-left: 138px;
 }
 .container .box .box-item1:nth-child(2) {
   background-color: rgb(255, 242, 240);

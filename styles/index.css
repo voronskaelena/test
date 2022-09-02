@@ -131,11 +131,14 @@
   filter: drop-shadow(0 0 0.5px rgba(20, 20, 21, 0.14));
   margin-top: 10px;
 }
+.container .carouselExampleIndicators .carousel-inner .carousel-item {
+  width: 50%;
+}
 
 .working, .services {
   background-color: #ffffff;
 }
 
-.works, .team {
+.works, .team, .clients {
   background-color: #fbfbfb;
 }/*# sourceMappingURL=index.css.map */

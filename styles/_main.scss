@@ -132,10 +132,17 @@
         margin-top: 10px;
     }
   }
+  .carouselExampleIndicators{
+    .carousel-inner{
+      .carousel-item{
+        width: 50%;
+      }
+    }
+  }
 }
 .working, .services{
     background-color: $white;
 }
-.works, .team{
+.works, .team, .clients{
     background-color: $lightgreen;
 }
